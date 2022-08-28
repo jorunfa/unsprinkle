@@ -21,9 +21,12 @@ const Hero = () => {
             /images/hero-img@3x.webp 3x
           "
         />
-        <HeroImage src="/images/hero-img.jpg" />
+        <HeroImage
+          src="/images/hero-img.jpg"
+          alt="Cat with black background."
+          />
       </picture>
-      <Swoop src="/swoop.svg" />
+      <Swoop src="/swoop.svg" alt="" />
     </Wrapper>
   );
 };
